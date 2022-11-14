@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+body{
+    font-family: 'Inter';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.earth-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav{
+    background-color: #F55A5A;
+    justify-content: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.place-img{
+    width: 230px;
+    height: 280px;
+    border-radius: 20px;
+    margin-right: 5%;
 }
 
-.App-link {
-  color: #61dafb;
+.place-container{
+    display: flex;
+    align-items: center;
+    margin: 10% 10% 0 10% ;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.place-detail{
+    width: 60% ;
+}
+
+.title-text{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+
+.location-text{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.description-text{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
+}
+
+.googlemap-text{
+    color:#918E9B;
 }
